@@ -24,8 +24,8 @@ export function Hero() {
           </p>
 
           <p className="max-w-md text-lg leading-relaxed text-muted-foreground text-pretty">
-            I build the pipelines, dashboards, and data-quality systems teams quietly rely on every day — turning messy,
-            high-stakes data into something people can trust and act on.
+            I build the pipelines, dashboards, and data quality systems teams quietly rely on every day — turning messy,
+            high stakes data into something people can trust and act on.
           </p>
 
           <div className="flex flex-wrap items-center gap-3 pt-2">

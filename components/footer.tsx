@@ -1,7 +1,8 @@
-import { LinkedinIcon } from "@/components/brand-icons"
+import { LinkedinIcon, GithubIcon } from "@/components/brand-icons"
 
 const socials = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/avni1399", icon: LinkedinIcon },
+  { label: "GitHub", href: "https://github.com/AvniWadhwani", icon: GithubIcon },
 ]
 
 export function Footer() {

@@ -9,7 +9,7 @@ const groups = [
   },
   {
     category: "Statistics & Experimentation",
-    skills: ["A/B Testing", "Causal Inference", "Predictive Modeling", "Forecasting", "Root-Cause Analysis"],
+    skills: ["A/B Testing", "Causal Inference", "Predictive Modeling", "Forecasting", "Root Cause Analysis"],
   },
   {
     category: "BI & Visualization",

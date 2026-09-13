@@ -7,21 +7,21 @@ const projects = [
     title: "Feature Adoption & Retention Modeling",
     description:
       "Funnel and cohort analyses in SQL and pandas to measure adoption across user segments, with churn models evaluated by hypothesis testing and an uplift analysis estimating who an intervention would truly influence.",
-    image: "/images/project-recsys.png",
+    image: "/images/project-adoption.png",
     tags: ["SQL", "pandas", "Uplift Modeling"],
   },
   {
     title: "NYC Transit Service Analysis",
     description:
-      "A reproducible, version-controlled pipeline joining ridership and schedule data for 490 stations from public APIs, flagging across 5 boroughs where demand and service diverged.",
-    image: "/images/project-fraud.png",
+      "A reproducible, version controlled pipeline joining ridership and schedule data for 490 stations from public APIs, flagging across 5 boroughs where demand and service diverged.",
+    image: "/images/project-transit.png",
     tags: ["pandas", "APIs", "Matplotlib"],
   },
   {
     title: "Demand Forecasting",
     description:
-      "Cleaned 3 years of weekly data and engineered seasonal features, comparing ARIMA, Prophet, and gradient boosting to produce a 24-month forecast with average error brought down to ~12%.",
-    image: "/images/project-rag.png",
+      "Cleaned 3 years of weekly data and engineered seasonal features, comparing ARIMA, Prophet, and gradient boosting to produce a 24 month forecast with average error brought down to ~12%.",
+    image: "/images/project-forecast.png",
     tags: ["scikit-learn", "Prophet", "ARIMA"],
   },
 ]

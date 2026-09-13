@@ -28,9 +28,9 @@ export function About() {
               that teams quietly rely on every day.
             </p>
             <p>
-              Over four years at Accenture, I worked with U.S. enterprise clients to turn messy, high-stakes data into
+              Over four years at Accenture, I worked with U.S. enterprise clients to turn messy, high stakes data into
               something people could actually trust and act on — leading a payroll and benefits migration solo,
-              resolving 3,200+ anomalies for a zero-disruption go-live, building ML-based validation that cut repeat
+              resolving 3,200+ anomalies for a zero disruption go live, building ML based validation that cut repeat
               incidents by 45%, and designing 20+ BI dashboards that handed analysts back 8+ hours a week.
             </p>
             <p>

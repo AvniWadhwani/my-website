@@ -7,7 +7,7 @@ const roles = [
     title: "Teaching Assistant — Growth Coach",
     company: "Gies College of Business, UIUC",
     points: [
-      "Lead weekly small-group sessions guiding students in goal-setting, self-reflection, and skill development.",
+      "Lead weekly small group sessions guiding students in goal setting, self reflection, and skill development.",
       "Run 1:1 user and stakeholder conversations, and design engaging session content with program coordinators.",
     ],
   },
@@ -16,8 +16,8 @@ const roles = [
     title: "Application Development Analyst — Data Engineering & BI",
     company: "Accenture",
     points: [
-      "Led an HCM data migration solo with SQL validation and Python scripts, resolving 3,200+ payroll and benefits anomalies for a zero-disruption go-live with an 18% accuracy improvement.",
-      "Built Python ML validation with schema and rule-based filters to block corrupt records at ingestion, cutting repeat incidents by 45% across dashboards, reconciliation, and audit workflows.",
+      "Led an HCM data migration solo with SQL validation and Python scripts, resolving 3,200+ payroll and benefits anomalies for a zero disruption go live with an 18% accuracy improvement.",
+      "Built Python ML validation with schema and rule based filters to block corrupt records at ingestion, cutting repeat incidents by 45% across dashboards, reconciliation, and audit workflows.",
       "Designed 20+ BI Publisher models and OTBI dashboards for 3 business units, cutting reporting turnaround by 60% and freeing 8+ analyst hours weekly.",
       "Rebuilt ETL pipelines and PL/SQL procedures across Oracle Fusion AP, AR, and GL with REST integrations via Oracle OIC, reducing ERP data incidents by 30%.",
     ],
@@ -29,8 +29,8 @@ const roles = [
     points: [
       "Diagnosed PL/SQL bottlenecks in 10M+ nightly records, optimizing indexing, partitioning, and batch logic across MySQL, PostgreSQL, and Oracle.",
       "Built an R forecasting model projecting load volumes across 4 domains, cutting overnight SLA breaches by 30%.",
-      "Ran EDA on 3 years of data in SQL Server, surfacing capacity and quality trends that shaped multi-million-dollar infrastructure decisions.",
-      "Built SQL query libraries and data dictionaries in GitHub, eliminating cross-report discrepancies and cutting analyst onboarding by 3 weeks.",
+      "Ran EDA on 3 years of data in SQL Server, surfacing capacity and quality trends that shaped multi million dollar infrastructure decisions.",
+      "Built SQL query libraries and data dictionaries in GitHub, eliminating cross report discrepancies and cutting analyst onboarding by 3 weeks.",
     ],
   },
   {
