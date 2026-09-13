@@ -1,0 +1,51 @@
+
+
+Avni Wadhwani
+(217) 954-3544 | avniw2@illinois.edu | Champaign, IL (open to relocate) | LinkedIn
+SUMMARY
+I spent nearly four years at Accenture analyzing large, complex datasets in SQL, Python, and R, running statistical analysis, and 
+turning findings into insights that leaders acted on. I am now completing my M.S. at UIUC with a focus on machine learning and 
+experimentation. I want to grow as a data scientist working on user behavior and product. On TikTok's team, I look forward to running 
+deep analyses into how users engage, designing A/B tests, and defining the metrics that measure whether product changes actually 
+work.
+EDUCATION
+University of Illinois Urbana-ChampaignChampaign, IL
+M.S. Information Management (Data Analytics) | GPA: 4.00/4Aug 2025 – May 2027
+Relevant Coursework: Machine Learning, Statistical Analysis, Experimentation & Causal Inference, Data Mining, Databases (SQL)
+Medi-Caps UniversityIndia
+B.Tech, Data Science | GPA: 8.18/10Aug 2017 – May 2021
+Relevant Coursework: Statistics & Probability, Linear Algebra, Data Structures & Algorithms, Programming (Python, R), DBMS
+SKILLS
+Programming & Data: SQL, Python (pandas, scikit-learn), R, relational databases, large-scale data cleaning & processing
+Statistics & ML: Statistical analysis, probability, predictive modeling, hypothesis testing, metrics frameworks, root-cause analysis
+Experimentation: A/B testing, experiment design, statistical interpretation of results, causal inference, funnel & cohort analysis
+Visualization: Tableau, Excel, Power BI, data storytelling, presenting insights to cross-functional stakeholders
+EXPERIENCE
+Application Development Analyst (Data & Analytics)Dec 2023 – May 2025
+AccentureIndia
+• Analyzed large, complex datasets in SQL and Python across 3 business units at a global insurance client, uncovering trends and 
+patterns through statistical analysis.
+• Defined and monitored a metrics framework for reporting, and traced the root cause of metric movements for stakeholders.
+• Built a predictive model in R across 4 domains that projected demand and lowered overnight SLA breaches 30%.
+• Presented analyses to cross-functional stakeholders using Tableau visualizations to deliver insights and recommendations.
+Application Development Associate (Data & Analytics)Sept 2021 – Dec 2023
+AccentureIndia
+• Ran exploratory and statistical analysis on 3 years of usage data in SQL, quantifying trends and user patterns that informed 
+planning.
+• Cleaned and processed large datasets from relational databases, ensuring quality before analysis.
+• Partnered with data engineers and domain experts to align on project goals and reliable data foundations.
+• Championed data-informed decisions, turning analysis into the metrics teams tracked day to day.
+PROJECTS
+Feature Adoption & Retention ModelingSept 2025 – Dec 2025
+• Built funnel and cohort analyses in SQL and Python (pandas) to measure adoption and retention across user segments.
+• Trained retention/churn models (logistic regression, gradient boosting) and evaluated them with hypothesis testing on held-out 
+data.
+• Ran an uplift/quasi-experimental analysis to estimate which users an intervention would truly influence.
+NYC Transit Service AnalysisJan 2026 – May 2026
+• Sourced ridership and schedule data for 490 stations from public APIs and joined 4 datasets in Python (pandas).
+• Cleaned and validated the data, then built a reproducible pipeline with Matplotlib/Seaborn charts across 5 boroughs.
+• Delivered a documented, version-controlled analysis (Git) others could reuse, flagging where demand and service diverged.
+Demand ForecastingJun 2026 – Present
+• Cleaned 3 years of weekly data and engineered seasonal features in Python (pandas, scikit-learn).
+• Compared ARIMA, Prophet, and gradient boosting on held-out periods to produce a 24-month forecast.
+• Brought average forecast error down to about 12%, giving clearer planning decisions.
