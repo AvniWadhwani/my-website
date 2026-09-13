@@ -16,7 +16,7 @@ type Feedback = {
   name: string
   message: string
   rating: number
-  created_at: string
+  created_at: string | null
 }
 
 function StarRating({
@@ -61,7 +61,11 @@ function StarRating({
   )
 }
 
-function formatDate(iso: string) {
+function formatDate(iso: string | null | undefined) {
+  if (!iso) {
+    return "Just now"
+  }
+
   const date = new Date(iso)
 
   if (Number.isNaN(date.getTime())) {
@@ -128,9 +132,10 @@ export function Contact() {
     }
 
     setSubmitting(true)
+    const timestamp = new Date().toISOString()
     const { data, error } = await supabase
       .from("feedback")
-      .insert({ name, message, rating })
+      .insert({ name, message, rating, created_at: timestamp })
       .select()
       .single()
     setSubmitting(false)
