@@ -62,13 +62,20 @@ function StarRating({
 }
 
 function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString("en-US", {
+  const date = new Date(iso)
+
+  if (Number.isNaN(date.getTime())) {
+    return "Just now"
+  }
+
+  return new Intl.DateTimeFormat("en-US", {
     month: "short",
     day: "numeric",
     year: "numeric",
     hour: "numeric",
     minute: "2-digit",
-  })
+    timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+  }).format(date)
 }
 
 export function Contact() {
@@ -129,8 +136,12 @@ export function Contact() {
     setSubmitting(false)
 
     if (error) {
-      console.log("[v0] insert feedback error:", error.message)
-      setError("Something went wrong. Please try again.")
+      console.log("[v0] insert feedback error:", error)
+      if (error.code === "42501") {
+        setError("Feedback submission is blocked by database permissions. Enable insert access for the public feedback table.")
+      } else {
+        setError("Something went wrong. Please try again.")
+      }
       return
     }
 
